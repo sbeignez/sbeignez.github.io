@@ -1,6 +1,9 @@
+---
+title: "Reinforcement Learning"
+---
+
 # Reinforcement Learning (Learning ressources)
 
----
 ## Stanford
 
 ### CS221 - Artificial Intelligence - [Homepage](https://stanford-cs221.github.io/)
