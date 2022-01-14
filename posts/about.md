@@ -1,7 +1,6 @@
 ---
-layout: post
-title: "POST TITLE"
-date: 2022-01-14 10:00:00 -0800
+layout: page
+title: "about"
 categories: CATEGORY-1 CATEGORY-2
 ---
 
