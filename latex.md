@@ -9,7 +9,7 @@ title: Latex with GitHub Pages
 # Model-based RL
 
 ### Policy 
-$\pi(s) =  $  
+\\ \pi(s) =    
 $\pi*$: Optimum policy 
 
 ### Quality function
@@ -17,7 +17,7 @@ Quality of a state-action pair
 $$ Q(s,a) = \sum_{s'\in S}( P(s'|s,a) * ( R(s,a,s') + \gamma * V(s') ) )$$
 
 ### Value function
-$ V(s) = max_a Q(s,a)$
+\\ V(s) = max_a Q(s,a) \\
 
 
 
@@ -40,7 +40,7 @@ $$ V(s_k) \larr V(s_k) + {1 \over n} ( R_{\sum} - V(s_k)), for all k \in [1,...,
 
 ## Temporal Difference Learning: TD(N)
 
-$ V(s_k) = E(r_k + \gamma V(s_{k+1})) = E(r_k + r_{k+1} \gamma V(s_{k+2})) $
+$$ V(s_k) = E(r_k + \gamma V(s_{k+1})) = E(r_k + r_{k+1} \gamma V(s_{k+2})) $$
 
 $$ V(s_k) \larr V(s_k) + \alpha ( r_k + \gamma V(s_{k+1}) - V(s_k))$$
 
