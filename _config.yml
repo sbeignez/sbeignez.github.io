@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://sbeignez.github.io"
 
 # Theme
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 color_theme: auto                     # color theme auto, dark or light
 
 # google_analytics: UA-NNNNNNNN-N
