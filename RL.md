@@ -47,11 +47,13 @@ title: "Reinforcement Learning"
 
 ## Uni. of Washington
 
-[Steve Brunton - Youtube Channel](https://www.youtube.com/channel/UCm5mt-A4w61lknZ9lCsZtBw) 
-* Reinforcement Learning 
+### Steven Brunton - Reinforcement Learning 
+* [Steve Brunton - Youtube Channel](https://www.youtube.com/channel/UCm5mt-A4w61lknZ9lCsZtBw) 
     * [x] [Reinforcement Learning: Machine Learning Meets Control Theory](https://www.youtube.com/watch?v=0MNVhXEX9to)
     * [x] [Reinforcement Learning Series: Overview of Methods](https://www.youtube.com/watch?v=i7q8bISGwMQ&ab_channel=SteveBrunton)
+    * ..
     * [ ] [Q-Learning: Model Free Reinforcement Learning and Temporal Difference Learning](https://www.youtube.com/watch?v=0iqz4tcKN58&ab_channel=SteveBrunton)
+        * $ Q(s,a) = \sum_{s'\in S}( P(s'|s,a) * ( R(s,a,s') + \gamma * V(s') ) )$ 
 
 
 
@@ -61,3 +63,12 @@ title: "Reinforcement Learning"
     * https://www.davidsilver.uk/teaching/
     * Lecture 1: [Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=2pWv7GOvuf0&ab_channel=DeepMind)
     * Lecture 2: [Markov Decision Process](https://www.youtube.com/watch?v=lfHX2hHRMVQ&ab_channel=DeepMind)
+
+
+## MIT
+
+### 6.036 Intro to Machine Learning
+
+* Fall 2020
+    * Lecture 1-8:
+    - [ ] Lecture 9: [State machines and Markov decision processes](https://www.youtube.com/watch?v=O5hkIfUR_uA&ab_channel=TamaraBroderick)
