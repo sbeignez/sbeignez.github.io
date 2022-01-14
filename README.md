@@ -22,6 +22,6 @@ Hello world
 {% endfor %}
 
 ---
-[About]("about.html")
+[About](about.html)
 
 
