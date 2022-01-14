@@ -1,5 +1,9 @@
 # Theme
+name: Sbeignez's Wandering
+domain: "sbeignez.github.io"
+url: "https://sbeignez.github.io"
+
 theme: jekyll-theme-cayman
 
-# Markdown processor: kramdown or GFM
-markdown: kramdown
+# Markdown processor: kramdown (https://kramdown.gettalong.org/documentation.html) or GFM (https://github.github.com/gfm/)
+markdown: GFM
