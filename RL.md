@@ -1,21 +1,20 @@
-# Links about Reinforcement Learning
+# Reinforcement Learning (Learning ressources)
 
+---
 ## Stanford
 
-### [Stanford | Online](https://online.stanford.edu/artificial-intelligence/free-content)
-
-### [CS221 - Artificial Intelligence](https://stanford-cs221.github.io/)
+### CS221 - Artificial Intelligence - [Homepage](https://stanford-cs221.github.io/)
 * CS221 - Autumn 2019
     *  [Youtube Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
-        * Lecture 1: Overview | Stanford CS221: AI (Autumn 2019)
-        * Lecture 2: Machine Learning 1 - Linear Classifiers, SGD | Stanford CS221: AI (Autumn 2019)
-        * Lecture 3: Machine Learning 2 - Features, Neural Networks | Stanford CS221: AI (Autumn 2019)
-        * Lecture 4: Machine Learning 3 - Generalization, K-means | Stanford CS221: AI (Autumn 2019)
-        * Lecture 5: Search 1 - Dynamic Programming, Uniform Cost Search | Stanford CS221: AI (Autumn 2019)
-        * Lecture 6: Search 2 - A* | Stanford CS221: AI (Autumn 2019)
-        * [x] Lecture 7: Markov Decision Processes - Value Iteration | Stanford CS221: AI (Autumn 2019)
-        * [ ] Lecture 8: [Markov Decision Processes - Reinforcement Learning | Stanford CS221: AI (Autumn 2019)](https://www.youtube.com/watch?v=HpaHTfY52RQ)
-        * [x] Lecture 9: Game Playing 1 - Minimax, Alpha-beta Pruning | Stanford CS221: AI (Autumn 2019)
+        - Lecture 1: Overview | Stanford CS221: AI (Autumn 2019)
+        - Lecture 2: Machine Learning 1 - Linear Classifiers, SGD | Stanford CS221: AI (Autumn 2019)
+        - Lecture 3: Machine Learning 2 - Features, Neural Networks | Stanford CS221: AI (Autumn 2019)
+        - Lecture 4: Machine Learning 3 - Generalization, K-means | Stanford CS221: AI (Autumn 2019)
+        - Lecture 5: Search 1 - Dynamic Programming, Uniform Cost Search | Stanford CS221: AI (Autumn 2019)
+        - Lecture 6: Search 2 - A* | Stanford CS221: AI (Autumn 2019)
+        - [x] Lecture 7: Markov Decision Processes - Value Iteration | Stanford CS221: AI (Autumn 2019)
+        - [ ] Lecture 8: [Markov Decision Processes - Reinforcement Learning | Stanford CS221: AI (Autumn 2019)](https://www.youtube.com/watch?v=HpaHTfY52RQ)
+        - [x] Lecture 9: Game Playing 1 - Minimax, Alpha-beta Pruning | Stanford CS221: AI (Autumn 2019)
         * Lecture 10: Game Playing 2 - TD Learning, Game Theory | Stanford CS221: AI (Autumn 2019)
         * Lecture 11: Factor Graphs 1 - Constraint Satisfaction Problems | Stanford CS221: AI (Autumn 2019)
         * Lecture 12: Factor Graphs 2 - Conditional Independence | Stanford CS221: AI (Autumn 2019)
@@ -28,6 +27,7 @@
         * Lecture 19: Conclusion | Stanford CS221: AI (Autumn 2019)
 * CS221 - [Spring 2020-2021](https://stanford-cs221.github.io/spring2021/)
 
+### Stanford | Online - [Page](https://online.stanford.edu/artificial-intelligence/free-content)
 
 
 ## UC Berkeley
@@ -49,6 +49,7 @@
     * [x] [Reinforcement Learning: Machine Learning Meets Control Theory](https://www.youtube.com/watch?v=0MNVhXEX9to)
     * [x] [Reinforcement Learning Series: Overview of Methods](https://www.youtube.com/watch?v=i7q8bISGwMQ&ab_channel=SteveBrunton)
     * [ ] [Q-Learning: Model Free Reinforcement Learning and Temporal Difference Learning](https://www.youtube.com/watch?v=0iqz4tcKN58&ab_channel=SteveBrunton)
+
 
 
 ## Deep Mind
