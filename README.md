@@ -6,9 +6,8 @@ Hello world
 
 ### Projects
 
-# Hi 
 
-
+### Tags
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -18,7 +17,7 @@ Hello world
   </ul>
 {% endfor %}
 
-## Posts
+### Posts
 <ul>
   {% for post in site.posts %}
     <li>
