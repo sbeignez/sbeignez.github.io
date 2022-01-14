@@ -1,8 +1,3 @@
----
-layout: page
-title: "README"
----
-
 # Welcome
 
 Hello world
