@@ -1,9 +1,20 @@
-# Theme
+
+# description: My blog posts            # Short description, primarily used by search engines
+
 name: Sbeignez's Wandering
 domain: "sbeignez.github.io"
+baseurl: ""
 url: "https://sbeignez.github.io"
 
+# Theme
 theme: jekyll-theme-slate
+color_theme: auto                     # color theme auto, dark or light
+
+# google_analytics: UA-NNNNNNNN-N
 
 # Markdown processor: kramdown (https://kramdown.gettalong.org/documentation.html) or GFM (https://github.github.com/gfm/)
 markdown: GFM
+
+
+# katex: true # to enable it
+# mermaid: true # to Enable it
