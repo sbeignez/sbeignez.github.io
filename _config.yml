@@ -3,7 +3,7 @@ name: Sbeignez's Wandering
 domain: "sbeignez.github.io"
 url: "https://sbeignez.github.io"
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 
 # Markdown processor: kramdown (https://kramdown.gettalong.org/documentation.html) or GFM (https://github.github.com/gfm/)
 markdown: GFM
