@@ -2,7 +2,16 @@
 
 Hello world
 
-#### Posts
+### Pages
+<ul>
+  {% for page in site.pages %}
+  <li>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+### Posts
 <ul>
 {% for post in site.posts %}
 <li>
@@ -11,7 +20,11 @@ Hello world
 {% endfor %}
 </ul>
 
-#### Tags
+{% for post in site.posts %}
+* [{{ post.title }}]( {{ post.url }} )
+{% endfor %}
+
+### Tags
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
