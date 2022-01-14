@@ -1,1 +1,5 @@
+# Theme
 theme: jekyll-theme-cayman
+
+# Markdown processor: kramdown or GFM
+markdown: kramdown
