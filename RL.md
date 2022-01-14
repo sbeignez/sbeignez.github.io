@@ -53,7 +53,7 @@ title: "Reinforcement Learning"
     * [x] [Reinforcement Learning Series: Overview of Methods](https://www.youtube.com/watch?v=i7q8bISGwMQ&ab_channel=SteveBrunton)
     * ..
     * [ ] [Q-Learning: Model Free Reinforcement Learning and Temporal Difference Learning](https://www.youtube.com/watch?v=0iqz4tcKN58&ab_channel=SteveBrunton)
-        * $ Q(s,a) = \sum_{s'\in S}( P(s'|s,a) * ( R(s,a,s') + \gamma * V(s') ) )$ 
+        * $$ Q(s,a) = \sum_{s'\in S}( P(s'|s,a) * ( R(s,a,s') + \gamma * V(s') ) )$$
 
 
 
@@ -72,3 +72,12 @@ title: "Reinforcement Learning"
 * Fall 2020
     * Lecture 1-8:
     - [ ] Lecture 9: [State machines and Markov decision processes](https://www.youtube.com/watch?v=O5hkIfUR_uA&ab_channel=TamaraBroderick)
+
+
+---
+Articles:
+* [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
+
+---
+To watch:
+* [Virtual HLF 2020 – Talk: David Silver](https://www.youtube.com/watch?v=u5hBHkbihxA)
