@@ -1,5 +1,6 @@
 ---
-title: "Reinforcement Learning"
+title: "Reinforcement Learning: Links"
+tags: RL MDP
 ---
 
 # Reinforcement Learning (Learning ressources)
@@ -15,7 +16,7 @@ title: "Reinforcement Learning"
         - Lecture 4: Machine Learning 3 - Generalization, K-means
         - Lecture 5: Search 1 - Dynamic Programming, Uniform Cost Search
         - Lecture 6: Search 2 - A*
-        - [x] Lecture 7: Markov Decision Processes - Value Iteration
+        - [x] Lecture 7: [Markov Decision Processes - Value Iteration]() ?
         - [ ] Lecture 8: [Markov Decision Processes - Reinforcement Learning](https://www.youtube.com/watch?v=HpaHTfY52RQ)
         - [x] Lecture 9: Game Playing 1 - Minimax, Alpha-beta Pruning
         * Lecture 10: Game Playing 2 - TD Learning, Game Theory
@@ -38,11 +39,17 @@ title: "Reinforcement Learning"
 ### CS188 Artificial Intelligence
 * Spring 2013
     * [YouTube Videos](https://www.youtube.com/user/CS188Spring2013/videos)
-        * Lecture 1-7
         * [x] Lecture 8: [Markov Decision Processes (MDPs)](https://www.youtube.com/watch?v=i0o-ui1N35U&ab_channel=CS188Spring2013)
         * [1/2] Lecture 9: [Markov Decision Process II](https://www.youtube.com/watch?v=Csiiv6WGzKM&t=928s&ab_channel=CS188Spring2013)
-        * Lecture 10-25
+        * Lecture 10: [Reinforcement Learning]
+        * Lecture 11: [Reinforcement Learning II]
 
+* Fall 2013 - Prof. Dan Klein
+    * [YouTube Videos](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
+        * Lecture 8: [Markov Decision Processes](https://www.youtube.com/watch?v=ip4iSMRW5X4)
+        * Lecture 9: [Markov Decision Processes II](https://www.youtube.com/watch?v=1S-dw6Vt1l4)
+        * Lecture 10: [Reinforcement Learning](https://www.youtube.com/watch?v=w33Lplx49_A)
+        * Lecture 11: [Reinforcement Learning II](https://www.youtube.com/watch?v=w33Lplx49_A)
 
 
 ## Uni. of Washington
@@ -53,24 +60,69 @@ title: "Reinforcement Learning"
     * [x] [Reinforcement Learning Series: Overview of Methods](https://www.youtube.com/watch?v=i7q8bISGwMQ&ab_channel=SteveBrunton)
     * ..
     * [ ] [Q-Learning: Model Free Reinforcement Learning and Temporal Difference Learning](https://www.youtube.com/watch?v=0iqz4tcKN58&ab_channel=SteveBrunton)
+    * [ ] [Deep Reinforcement Learning: Neural Networks for Learning Control Laws](https://www.youtube.com/watch?v=IUiKAD6cuTA)
 
 
 
-## Deep Mind
+## UCL Uni. College London / Deep Mind
 
-* RL Course by David Silver
-    * https://www.davidsilver.uk/teaching/
+### David Silver - RL Course- 2015
+* https://www.davidsilver.uk/teaching/
+* [Introduction to reinforcement learning](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) (Youtube Playlist)
     * Lecture 1: [Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=2pWv7GOvuf0&ab_channel=DeepMind)
-    * Lecture 2: [Markov Decision Process](https://www.youtube.com/watch?v=lfHX2hHRMVQ&ab_channel=DeepMind)
+    * Lecture 2: [Markov Decision Process](https://www.youtube.com/watch?v=lfHX2hHRMVQ&ab_channel=DeepMind) & [PDF](https://www.davidsilver.uk/wp-content/uploads/2020/03/MDP.pdf)
+    * L3-5
+    * Lecture 6: Value Function Approximation
+    * Lecture 7: [Policy Gradient Methods](https://www.youtube.com/watch?v=KHZVXao4qXs)
 
 
 ## MIT
 
-### 6.036 Intro to Machine Learning
+### MIT 6.036 - Intro to Machine Learning
 
-* Fall 2020
-    * Lecture 1-8:
-    - [ ] Lecture 9: [State machines and Markov decision processes](https://www.youtube.com/watch?v=O5hkIfUR_uA&ab_channel=TamaraBroderick)
+* MIT 6.036 - Fall 2020 by T.B: https://tamarabroderick.com/ml.html with [youtube] & [slides pdf]
+    * Lecture 1: Basics (2020 / 09 / 01) 
+    * Lecture 2: Perceptrons (2020 / 09 / 08) 
+    * Lecture 3: Features (2020 / 09 / 15) 
+    - Lecture 4: Logistic regression, a.k.a. linear logistic classification (2020 / 09 / 22) 
+    - Lecture 5: Regression (2020 / 09 / 29) 
+    - Lecture 6: Neural networks (2020 / 10 / 06) 
+    - Lecture 7: There was a holiday this week, and the lecture numbering matches the week of the course. So there is no Lecture 7.
+    - Lecture 8: Convolutional neural networks (2020 / 10 / 20) 
+    - Lecture 9: [State machines and Markov decision processes](https://www.youtube.com/watch?v=O5hkIfUR_uA&ab_channel=TamaraBroderick) (2020 / 10 / 27) #RL 
+    - Lecture 10: [Reinforcement learning](https://www.youtube.com/watch?v=Ir93m9OmOHo) (2020 / 11 / 03) 
+    - Lecture 11: Recurrent neural networks (2020 / 11 / 10) 
+    - Lecture 12: Decision trees and random forests (2020 / 11 / 17) 
+    - Lecture 13: Clustering (2020 / 12 / 01) 
+    - Lecture 14: Guest lecture (David Sontag) (2020 / 12 / 08)
+    - https://github.com/tbroderick/ml_6036_2020_captions
+
+### MIT 6.S191 Introduction to Deep Learning
+
+* 2019 - Alexander Amini 
+    * Lecture 5: [Deep Reinforcement Learning](https://www.youtube.com/watch?v=i6Mi2_QM3rA)
+  
+* 2020 - Alexander Amini 
+    * Lecture 5: [Deep Reinforcement Learning](https://www.youtube.com/watch?v=nZfaHIxDD5w)
+  
+* 2021 - Alexander Amini 
+    * Lecture 5: [Deep Reinforcement Learning](https://www.youtube.com/watch?v=93M1l_nrhpQ)
+
+### MIT 6.S091: Deep Learning (https://deeplearning.mit.edu)
+
+* Introduction to Deep Reinforcement Learning (Deep RL)
+
+### MIT 6.S094: Deep Learning for self Driving Cars ()
+* 2018 - Lex Fridman
+    * Lecture 3: [Deep Reinforcement Learning](https://www.youtube.com/watch?v=MQ6pP65o7OM)
+
+
+## Virginia Tech
+
+### CS5804 - Spring 2015
+
+* [Markov Decision Processes](https://www.youtube.com/watch?v=KovN7WKI9Y0)
+
 
 
 ---
