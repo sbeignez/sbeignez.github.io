@@ -2,7 +2,7 @@
 title: RL methods
 description: RL methods
 tags: RL
-latex: true
+latex: false
 ---
 
 # Model-based RL

@@ -1,3 +1,7 @@
+---
+title: sbeignez's page
+---
+
 ## Welcome
 
 Hello world
