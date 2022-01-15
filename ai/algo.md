@@ -4,24 +4,32 @@
 
 Divide > Solve > Combine
 
-input: problem of size n P_n
-
 ```
-Algorithm DC(P: problem):
+Input: p, a problem of type <P>
+Output: a, an answer of type <A>
+Begin Algorithm
+
+DC(p <P>):
     [recursion]
     if
-        the P is solvable (eg. size(P) is small enough).
+        the problem is solvable isSolvable(p)
+            (eg. size(p) is small enough).
     then
-        return Solve(P).
+        return Solve(p).
     else
     [divide & conquer & combine]
-        *divide*: Divide the problem P into k sub-problems P1, ..., Pk,
-            such as Union(Pi)=P and Inter(Pi,Pj)=0 (MECE, Mutually Exclusive and Commonly Exhaustive).
-        *conquer*: solve each sub-problem, by applying DC() to each Pi. Or continue to divide recursively.  
-        *combine* Combine(DC(P1), DC(P2), ..., DC(Pk)) --> answer.
+        *divide*: Divide the problem p into k sub-problems p1, ..., p_k,
+            such as Union(p_i)=p and Inter(p_i,p_j)=0 (MECE, Mutually Exclusive and Commonly Exhaustive).
+        *conquer*: solve each sub-problem, by applying DC() to each p_i. Or continue to divide recursively.  
+        *combine* Combine(DC(p1), DC(p2), ..., DC(p_k)) --> answer.
         return answer.
-```
 
+isSolvable(<P>) -> <Bool>
+Solve(<P>) -> <A>
+Divide(<P>) -> List<P>
+Combine(list<A>) -> <A>
+```
+Note: a recursive problem can always be written using iterative approach and vice versa
 
 #### D&C examples
 * Sorting: mergesort and quicksort
@@ -51,3 +59,9 @@ divide the problem, recursively breaking down the problem | .
 sub-problems are independant | sub-problems overlap
 recursive | non-recursive ?
 combines the solutions of the subproblems to obtain the solution of the main problem | uses the result of the subproblems to find the optimum solution of the main problem.
+
+
+# Recursion
+
+## Recursion to iteration
+How to 

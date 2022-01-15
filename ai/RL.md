@@ -51,6 +51,11 @@ tags: RL MDP
         * Lecture 10: [Reinforcement Learning](https://www.youtube.com/watch?v=w33Lplx49_A)
         * Lecture 11: [Reinforcement Learning II](https://www.youtube.com/watch?v=w33Lplx49_A)
 
+* [CS188.1x on edX](https://courses.edx.org/courses/BerkeleyX/CS188.1x-4/1T2015/course/) - 2015
+
+* Spring 2015 & Spring 2016
+    * [YouTube Videos](https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg/videos)
+        * Lecture 18: [Hidden Markov Models](https://www.youtube.com/watch?v=D_RIe5bd3hk&ab_channel=BerkeleyAI)
 
 ## Uni. of Washington
 
@@ -122,6 +127,7 @@ tags: RL MDP
 ### CS5804 - Spring 2015
 
 * [Markov Decision Processes](https://www.youtube.com/watch?v=KovN7WKI9Y0)
+* [Hidden Markov Models](https://www.youtube.com/watch?v=9yl4XGp5OEg&ab_channel=BertHuang)
 
 
 
