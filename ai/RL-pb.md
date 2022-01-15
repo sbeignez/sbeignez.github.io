@@ -2,7 +2,7 @@
 
 checker
 
-pac-man (berkeley 2015, 
+PAC-MAN (berkeley 2015: Project 2)
 
 tictactoe
 
@@ -153,9 +153,6 @@ Outcomes controlled by chance, not adversary. Out of our control.
 ex: roll dices, ..
 explicit randomness, unpredictable (noise), optimal with risk of failure
 
-Distrubution: Unifom, or else?
-
-
 ### Expectimax Search
 
 Chance node
@@ -176,3 +173,16 @@ def exp-value(state s)
         p = probability(succ(s)=s')
         v+= p * value(succ(s)=s')
 ``` 
+
+Expectimax Pruning?
+* no, except we knows some bounds on values
+
+
+#### Proba (review)
+Random variable, Probability distribution, ..
+Distrubution: Unifom, or else?
+Expectation: Expected value of a function of a randon variable = the average, weighted, by the probability distribution over all the outcomes
+
+Uncertainty vs. Lack of knowledge of opponent model
+
+Informed proba

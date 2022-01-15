@@ -5,7 +5,7 @@ Hello world
 
 ### Pages
 
-{% for page in site.pages %}
+{% for page in site.html_pages %}
 * [{{ page.title }}]( {{ page.url }} )
 {% endfor %}
 
