@@ -27,6 +27,8 @@ Part: 1 Makign decisions
 Part 2: reasoning under uncertainty (bayes' nets, decision theory, ML)
 
 
+# [Lecture6 ](https://www.youtube.com/watch?v=-Il2oJoItaI)
+
 Deterministic Games
 
 ## Type of games, Classification:
@@ -72,7 +74,105 @@ Non-Terminal states: $$ V(s) = Max_{s'\in children(s)} V(s')$$
 
 2) Adversarial game-tree
 
-MiniMax values
+Adversarial Search MiniMax
+
 * max at agent's control / min at opponent's control
 
 $$ V(s) = \text{if } isPayer(s): max_{s'\in succ} V(s'), \text{if } not isPayer(s): min_{s'\in succ} V(s') $$
+
+
+```
+def max-value(state s)
+    init v = -inf
+    for each s' in succ(s):
+        v = max( v , min-value(s'))
+
+def min-value(state s):
+    init v = + inf
+    for each s' in succ(s):
+        v = max( v , max-value(s'))
+
+```
+multual recursion
+
+
+```
+def value(state s)
+    if s is terminal, return R(s)
+    if next agent is MAX: return max-value(s)
+    if next agent is MIN: return min-value(s)
+
+def max-value(s)
+    v = - inf
+    v = max( [ v] + [ value(s') for s' in succ(s) ] )
+
+```
+
+DFS - deppth First Search  
+b: branches (2-4)
+m: layers (c+r = 20)
+$$O(b^m)$$ 
+
+Adversarial? = Opponent agent always take the best move
+
+---
+
+Ressource Limits
+
+Solution:
+* Deepth-limited search
+* Replace terminal utilities with an evaluation function for non-terminal states !!
+(can use function, or NN approximator)
+
+Evaluation function  
+$$ Eval(s) = w1*f1(s) + .. + wn*fn(s) $$
+lot of features f, linear compunations
+and weights: by Machine Learning 
+
+eX:  
+return score  
+
+danger: Replanning agents
+Solution: if same values (2 nodes in max), take the one with mean is higer
+
+Game Tree Prunning
+
+\alpha \beta
+
+meta-reasoning: (computing about what to compute)
+* node ordering
+
+
+# Lecture 7: [Uncertainty and Utilities](https://www.youtube.com/watch?v=M98BM_yJPNw)
+
+Uncertain outcomes
+
+Worst case vs. Average case
+
+Outcomes controlled by chance, not adversary. Out of our control.
+ex: roll dices, ..
+explicit randomness, unpredictable (noise), optimal with risk of failure
+
+Distrubution: Unifom, or else?
+
+
+### Expectimax Search
+
+Chance node
+
+Weighted average value
+Expected utility
+
+
+```
+def value(state s)
+    if s is terminal, return R(s)
+    if next agent is MAX: return max-value(s)
+    if next agent is EXP: return exp-value(s)
+
+def exp-value(state s)
+    init v = 0
+    for each s' in successors of state s
+        p = probability(succ(s)=s')
+        v+= p * value(succ(s)=s')
+``` 
