@@ -8,7 +8,15 @@ tags: RL MDP
 ## Stanford
 
 ### CS221 - Artificial Intelligence - [Homepage](https://stanford-cs221.github.io/)
-* CS221 - Autumn 2019
+
+* CS221 - Fall 2013 - Instructor: Prof. Dan Klein
+    * [Youtube Playlist](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
+        * Lecture 4: [CSPs: Constraint Satisfaction Problems](https://www.youtube.com/watch?v=hJ9WOiueJes&t=4s&ab_channel=CS188Fall2013)
+        * Lecture 5: 
+        * [x] Lecture 6: [Adversarial Search](https://www.youtube.com/watch?v=-Il2oJoItaI&t=1305s&ab_channel=CS188Fall2013)
+        * [x] Lecture 7: [Uncertainty and Utilities](https://www.youtube.com/watch?v=M98BM_yJPNw&ab_channel=CS188Fall2013)
+
+* CS221 - Autumn 2019 - Percy Liang & Dorsa Sadigh
     *  [Youtube Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
         - Lecture 1: Overview
         - Lecture 2: Machine Learning 1 - Linear Classifiers, SGD
@@ -17,7 +25,7 @@ tags: RL MDP
         - Lecture 5: Search 1 - Dynamic Programming, Uniform Cost Search
         - Lecture 6: Search 2 - A*
         - [x] Lecture 7: [Markov Decision Processes - Value Iteration]() ?
-        - [ ] Lecture 8: [Markov Decision Processes - Reinforcement Learning](https://www.youtube.com/watch?v=HpaHTfY52RQ)
+        - [x] Lecture 8: [Markov Decision Processes - Reinforcement Learning](https://www.youtube.com/watch?v=HpaHTfY52RQ)
         - [x] Lecture 9: Game Playing 1 - Minimax, Alpha-beta Pruning
         * Lecture 10: Game Playing 2 - TD Learning, Game Theory
         * Lecture 11: Factor Graphs 1 - Constraint Satisfaction Problems
@@ -30,6 +38,8 @@ tags: RL MDP
         * Lecture 18: Deep Learning
         * Lecture 19: Conclusion
 * CS221 - [Spring 2020-2021](https://stanford-cs221.github.io/spring2021/)
+
+Note: The 2013 videos are better than the 2019.
 
 ### Stanford | Online - [Page](https://online.stanford.edu/artificial-intelligence/free-content)
 
@@ -121,6 +131,9 @@ tags: RL MDP
 * 2018 - Lex Fridman
     * Lecture 3: [Deep Reinforcement Learning](https://www.youtube.com/watch?v=MQ6pP65o7OM)
 
+### MIT 6.034
+* [Fall 2010](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - [Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+    * [6. Search: Games, Minimax, and Alpha-Beta](https://www.youtube.com/watch?v=STjW3eH0Cik)
 
 ## Virginia Tech
 
