@@ -32,13 +32,18 @@ Part 2: reasoning under uncertainty (bayes' nets, decision theory, ML)
 Deterministic Games
 
 ## Type of games, Classification:
-* Deterministic or stochastic
-* Players: 1, 2, +
-* Zero Sum ?
-* Perfect informantion (can you see the state) ../poker
+* Deterministic | stochastic
+* 1 Player | N Players
+* Zero Sum | Non-ZS
+* Perfect informantion (can you see the state) | Imperfect (poker)
 
-Solution or strategy(policy)
-sequnece // lookup table or function(s)
+
+Solution:
+Deterministic game | Stochastic game
+--- | ---
+Search | Game
+Solution | Strategy(policy)
+sequence | lookup table or function(s)
 
 ## Formalization
 

@@ -21,3 +21,6 @@ kramdown:
 
 # katex: true # to enable it
 # mermaid: true # to Enable it
+
+gems:
+  - jekyll-sitemap
