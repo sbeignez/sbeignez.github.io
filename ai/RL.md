@@ -67,6 +67,16 @@ Note: The 2013 videos are better than the 2019.
     * [YouTube Videos](https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg/videos)
         * Lecture 18: [Hidden Markov Models](https://www.youtube.com/watch?v=D_RIe5bd3hk&ab_channel=BerkeleyAI)
 
+### Pieter Abbeel
+* Intro serie about Deep Reinforcement Learning
+    * [L1 MDPs, Exact Solution Methods, Max-ent RL (Foundations of Deep RL Series](https://www.youtube.com/watch?v=2GwBez0D20A&t=608s&ab_channel=PieterAbbeel)
+    * [L2] ()
+    * [L3] ()
+    * [L4] ()
+    * [L5] ()
+    * [L6] ()
+
+
 ## Uni. of Washington
 
 ### Steven Brunton - Reinforcement Learning 

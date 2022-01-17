@@ -45,18 +45,30 @@ Search | Game
 Solution | Strategy(policy)
 sequence | lookup table or function(s)
 
-## Formalization
+## Formalization (MDP)
 
-* STATES S = {...}
+* STATES S = [s1, s2, .., sn]
+    * all_states() -> [s]
+    * START state(s)
+        * initial_state() -> s0 : unique
+        * start_state_distribution : multi
+    * TERMINAL
+        * all_terminal_states() -> [s]
+        * isTerminal(S) -> Bool
 * PLAYERS P = {P1, ..., Pn}
 * ACTIONS
     * Possible Actions: Action(Player,State) -> A+
-* Transition Function, or successor function
-    * SxA --> S
-* Terminal Test
-    * isTerminal(S) -> Bool
-* Terminal Utility
-    * utility(S,P) -> Reward
+* TRANSITION / SUCCESSOR: Successor function, Transition Function
+    * successor(s,a) -> a : if deterministic
+    * transition(s,a,s') -> [0,1] : if non-deterministic
+* REWARD / Terminal Utility
+    * utility(s,p) -> Reward for 1 player, non-zero sum 
+    * reward(s,a,s') -> r (reward)
+
+Hyperparameters
+* DISCOUNT FACTOR \gamma
+    * Why? 
+* HORIZON H (max time t in [0, H])
 
 Solution: 
 * $ POLICY \pi: S \rarr A $
