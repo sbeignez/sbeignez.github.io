@@ -18,6 +18,7 @@ $$ Q(s,a) = \sum_{s'\in S}( P(s'|s,a) * ( R(s,a,s') + \gamma * V(s') ) )$$
 ### Value function
 \\ V(s) = max_a Q(s,a) \\
 
+#QA: a in Actions or a in valid Actions 
 
 # Model-free RL
 When P and R are unknown
