@@ -8,8 +8,8 @@ latex: false
 # Model-based RL
 
 ### Policy 
-\\ \pi(s) =    
-$\pi*$: Optimum policy 
+
+pi(s) =    $\pi*$: Optimum policy 
 
 ### Quality function
 Quality of a state-action pair

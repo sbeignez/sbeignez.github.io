@@ -15,7 +15,7 @@ A | B
 Sequential (dynamic game) | Simultaneous (static game)
 Discreet | Continuous
 1 Player | N-Players
-Perfect Information | Inperfect Information
+Perfect Information | Imperfect Information (Partially Obervable)
 Zero-sum | Non-zero-sum
 Deterministic | Stochastic
 Symmetric | Asym

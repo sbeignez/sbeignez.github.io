@@ -5,8 +5,8 @@
 Notes and ressources
 
 * GOFAI - OR
-    * Optimisation: Search algorithms
-    * [Games Theory](/ai/game-theory)
+    * Optimisation: [Search algorithms](/ai/algo)
+    * [Graph](/ai/graph), [Games Theory](/ai/game-theory)
     * Evolutionary Algorithms
 * Machine Learning
     * [Un]supervised Learning

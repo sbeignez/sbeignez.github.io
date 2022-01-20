@@ -56,8 +56,8 @@ Solutions stored in table: memorization-memoization or tabulation
 D&Q | DP
 --- | ---
 divide the problem, recursively breaking down the problem | .
-sub-problems are independant | sub-problems overlap
-recursive | non-recursive ?
+sub-problems are independant (non-overlapping) | sub-problems overlap (re-use subtree solutions)
+(non-)recursive? | recursive
 combines the solutions of the subproblems to obtain the solution of the main problem | uses the result of the subproblems to find the optimum solution of the main problem.
 
 

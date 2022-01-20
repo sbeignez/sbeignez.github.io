@@ -1,19 +1,16 @@
 ## id
 
-checker
-
-PAC-MAN (berkeley 2015: Project 2)
-
-tictactoe
-
-snake and scales
+* checker
+* PAC-MAN (berkeley 2015: Project 2)
+* tictactoe
+* snake and scales
 
 
 L1:  
 AI: "Maximize your expected utility"
 
 
-Memory adn sim:  
+Memory and sim:  
 Machine-Learning based AI  
 Simulation based AI  
 
@@ -39,11 +36,11 @@ Deterministic Games
 
 
 Solution:
-Deterministic game | Stochastic game
+Deterministic | Stochastic
 --- | ---
 Search | Game
 Solution | Strategy(policy)
-sequence | lookup table or function(s)
+Sequence | lookup table or function(s)
 
 ## Formalization (MDP)
 
