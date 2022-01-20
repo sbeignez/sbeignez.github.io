@@ -1,6 +1,33 @@
 # Algo
 
-## Divide and Conquer
+## Search Algorithms
+
+* Best-First Search
+* Breadth-First Search 
+* Depth-First Search
+
+
+## Algo Design Paradigms
+
+* Brute-force Search
+* Backtracking
+* Branch and bound
+* Divide and conquer
+* Dynamic Programming
+* Greedy Strategy / Heuristic
+* Prune and search
+
+### Greedy
+
+* Make the local optimal choice at each stage
+* According current state (and possibly past states) but not the future states
+
+### Branch and Bound
+
+* Alpha-Beta Pruning
+    * Minimax algorithm
+
+### Divide and Conquer
 
 Divide > Solve > Combine
 
@@ -48,6 +75,9 @@ Solutions stored in table: memorization-memoization or tabulation
 * Memoization (top-down cache filling)
 * Tabulation (bottom-up cache filling)
 
+## Backtracking
+
+
 
 ## VS.
 
@@ -59,6 +89,7 @@ divide the problem, recursively breaking down the problem | .
 sub-problems are independant (non-overlapping) | sub-problems overlap (re-use subtree solutions)
 (non-)recursive? | recursive
 combines the solutions of the subproblems to obtain the solution of the main problem | uses the result of the subproblems to find the optimum solution of the main problem.
+
 
 
 # Recursion
