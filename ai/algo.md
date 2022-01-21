@@ -1,13 +1,15 @@
-# Algo
+# Search algorithms
 
 ## Search Algorithms
+
+Types
 
 * Best-First Search
 * Breadth-First Search 
 * Depth-First Search
 
 
-## Algo Design Paradigms
+Algo Design Paradigms
 
 * Brute-force Search
 * Backtracking
@@ -17,17 +19,17 @@
 * Greedy Strategy / Heuristic
 * Prune and search
 
-### Greedy
+## Greedy
 
 * Make the local optimal choice at each stage
 * According current state (and possibly past states) but not the future states
 
-### Branch and Bound
+## Branch and Bound
 
 * Alpha-Beta Pruning
     * Minimax algorithm
 
-### Divide and Conquer
+## Divide and Conquer
 
 Divide > Solve > Combine
 
@@ -77,7 +79,27 @@ Solutions stored in table: memorization-memoization or tabulation
 
 ## Backtracking
 
+* Backtracking = DFS(Deepth-First Search) + Variable-Ordering + Fail-on-violation
+* For CSP(Contraints Satisfaction Problems)
 
+### Pseudo-code
+
+1. General
+```
+
+```
+
+2. GSP (constraints)
+```
+
+```
+
+Variants:
+* Early stopping (after find 1, n solution, after time)
+
+Ex:
+* N-Queens problem
+* Sudoku
 
 ## VS.
 
@@ -92,7 +114,7 @@ combines the solutions of the subproblems to obtain the solution of the main pro
 
 
 
-# Recursion
+# Recursion & Iteration
 
-## Recursion to iteration
-How to 
+Definitions.  
+Recursion to Iteration and Iteration to Recursion.  

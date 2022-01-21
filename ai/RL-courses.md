@@ -47,15 +47,19 @@ Note: The 2013 videos are better than the 2019.
 ## UC Berkeley
 
 ### CS188 Artificial Intelligence
-* Spring 2013
+* Spring 2013 - Pieter Abbeel
     * [YouTube Videos](https://www.youtube.com/user/CS188Spring2013/videos)
+        * [ ] Lecture 4: [CSPs](https://www.youtube.com/watch?v=IbWL7CB15vw) (-)
+        * Lecture 5: [CSPs II]
         * [x] Lecture 8: [Markov Decision Processes (MDPs)](https://www.youtube.com/watch?v=i0o-ui1N35U&ab_channel=CS188Spring2013)
         * [1/2] Lecture 9: [Markov Decision Process II](https://www.youtube.com/watch?v=Csiiv6WGzKM&t=928s&ab_channel=CS188Spring2013)
         * Lecture 10: [Reinforcement Learning]
         * Lecture 11: [Reinforcement Learning II]
 
-* Fall 2013 - Prof. Dan Klein
+* Fall 2013 - Prof. Dan Klein (+)
     * [YouTube Videos](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
+        * [x] Lecture 4: [CSP] ()
+        * [ ] Lecture 5 [CSPs II] ()
         * Lecture 8: [Markov Decision Processes](https://www.youtube.com/watch?v=ip4iSMRW5X4)
         * Lecture 9: [Markov Decision Processes II](https://www.youtube.com/watch?v=1S-dw6Vt1l4)
         * Lecture 10: [Reinforcement Learning](https://www.youtube.com/watch?v=w33Lplx49_A)
@@ -63,7 +67,7 @@ Note: The 2013 videos are better than the 2019.
 
 * [CS188.1x on edX](https://courses.edx.org/courses/BerkeleyX/CS188.1x-4/1T2015/course/) - 2015
 
-* Spring 2015 & Spring 2016
+* Spring 2015 - Pieter Abbeel & Spring 2016 - Anca Dragan & Pieter Abbeel
     * [YouTube Videos](https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg/videos)
         * Lecture 18: [Hidden Markov Models](https://www.youtube.com/watch?v=D_RIe5bd3hk&ab_channel=BerkeleyAI)
 
