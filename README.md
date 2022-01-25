@@ -1,7 +1,7 @@
 # sbeignez.github.io
+
 ## Welcome
 
-Hello world
 
 ### Pages
 

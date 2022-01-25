@@ -57,6 +57,7 @@
       <!-- COL: SIDE RIGHT -->
       <div class="col-2">
 
+
         <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
           <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
           <nav id="TableOfContents">
@@ -78,28 +79,32 @@
             </ul>
           </nav>
         </div>
-
+        {% include nav-left.html %}
       </div>
-
     </div>
-
 
   </div>
 
 
 
 
-
-
-
-
-
   <!-- FOOTER -->
-  <footer class="site-footer">
-    <span><a href="/">Home</a></span>
-    | <span><a href="/about">About</a></span>
-    | <span class="site-footer-credits">2022</span>
-  </footer>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span><a href="/">Home</a></span>
+      | <span><a href="/about/">About</a></span>
+        <span class="text-muted">© 2022 My Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div>
 
 </body>
 
