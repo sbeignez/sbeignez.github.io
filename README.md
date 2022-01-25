@@ -1,9 +1,8 @@
-# sbeignez.github.io
+# Home page
 
-## Welcome
+## Projects
 
-
-### Pages
+## Pages
 
 {% for page in site.html_pages %}
 * [{{ page.title }}]( {{ page.url }} )
@@ -17,7 +16,7 @@
   {% endfor %}
 </ul> -->
 
-### Posts
+## Posts
 <!-- <ul>
 {% for post in site.posts %}
 <li>
@@ -30,7 +29,7 @@
 * [{{ post.title }}]( {{ post.url }} )
 {% endfor %}
 
-### Tags
+## Tags
 
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>

@@ -1,9 +1,10 @@
 ---
-title: "AI > ML > Reinforcement Learning: Links"
+title: "AI & Reinforcement Learning Ressources"
+description: Books, Videos, Pages..
 tags: RL MDP
 ---
 
-# AI/RL - Books
+# Books
 
 * Artificial Intelligence: A Modern Approach, 4th ed. - Chap 22 - [Site](http://aima.cs.berkeley.edu/)
 * Reinforcement Learning, An Introduction, 2nd ed. - Sutton Barto - [Site](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) - [Pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
@@ -11,7 +12,7 @@ tags: RL MDP
 
 
 
-# AI/RL - Video courses
+# Online courses
 
 ## Stanford
 
