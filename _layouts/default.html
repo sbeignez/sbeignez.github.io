@@ -26,9 +26,11 @@
   <!-- HEADER -->
   <header class="page-header" role="banner">
     <div class="bg-dark px-4 py-5 mb-5 text-center">
-      <h1 class="display-5 fw-bold text-white">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h1 class="display-5 fw-bold text-white">{{ page.title | default: site.title | default:
+        site.github.repository_name }}</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4 text-black-50">{{ page.description | default: site.description | default: site.github.project_tagline}}</p>
+        <p class="lead mb-4 text-black-50">{{ page.description | default: site.description | default:
+          site.github.project_tagline}}</p>
       </div>
     </div>
   </header>
@@ -38,25 +40,7 @@
 
       <!-- COL: SIDE MENU -->
       <div class="col-2">
-        <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
-          <ul class="list-unstyled mb-0 py-3 pt-md-1">
-  
-            <li class="mb-1">
-              <button class="btn d-inline-flex align-items-center rounded" data-bs-toggle="collapse"
-                data-bs-target="#getting-started-collapse" aria-expanded="true" aria-current="true">
-                Menu_1
-              </button>
-  
-              <div class="collapse show" id="getting-started-collapse">
-                <ul class="list-unstyled fw-normal pb-1 small">
-                  <li><a href="/xx/yy/" class="d-inline-flex align-items-center rounded active" aria-current="page">Submenu_1</a></li>
-                  <li><a href="/xx/yy/" class="d-inline-flex align-items-center rounded">Submenu_2</a></li>
-                </ul>
-              </div>
-            </li>
-            </ul>
-        </nav>
-  
+        {% include nav-left.html %}
       </div>
 
       <!-- COL: MAIN -->
@@ -64,8 +48,8 @@
         <main id="content" class="main-content" role="main">
 
           {{ content }}
-    
-    
+
+
         </main>
       </div>
 
@@ -90,16 +74,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="#starter-template">Starter template</a></li>
-              <li><a href="#important-globals">Important globals</a>
-                <ul>
-                  <li><a href="#html5-doctype">HTML5 doctype</a></li>
-                  <li><a href="#responsive-meta-tag">Responsive meta tag</a></li>
-                  <li><a href="#box-sizing">Box-sizing</a></li>
-                  <li><a href="#reboot">Reboot</a></li>
-                </ul>
-              </li>
-              <li><a href="#community">Community</a></li>
+        
             </ul>
           </nav>
         </div>

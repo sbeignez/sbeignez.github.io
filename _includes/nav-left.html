@@ -1,0 +1,13 @@
+
+<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+    <strong class="d-block h6 my-2 pb-2 border-bottom">Pages</strong>
+    <nav id="TableOfContents">
+        <ul>
+            {% for page in site.pages %}
+            <li>
+                <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
