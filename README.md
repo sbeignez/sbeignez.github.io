@@ -1,3 +1,8 @@
+---
+title: "sbeignez - Homepage"
+description: AI, RL, ..
+---
+
 # Home page
 
 
@@ -29,8 +34,5 @@
 {% endfor %}
 -->
 
-
----
-[About](about.html)
 
 
