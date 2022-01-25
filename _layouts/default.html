@@ -54,22 +54,7 @@
         <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
           <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
           <nav id="TableOfContents">
-            <ul>
-              {% assign headers = page.content | split: '#' %}
-              {% for header in headers %}
-                {% assign _string = header | split: '\n' %}
-                {% capture _hAttrToStrip %}{{ _string[0] | split: '>' | first }}>{% endcapture %}
-                {% assign title = _string[0] | replace: _hAttrToStrip, '' %}
-
-                {% assign _idstring = header | split: 'id="' %}
-                {% assign _idstring = _idstring[1] | split: '"' %}
-                {% assign html_id = _idstring[0] %}
-
-                <li>
-                  <a href={{page.url}}#{{html_id}}>{{title}}</a>
-                </li>
-              {% endfor %}
-            </ul>
+            {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=1 h_max=3 %}
           </nav>
         </div>
 
