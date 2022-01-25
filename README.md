@@ -1,12 +1,6 @@
----
-title: "sbeignez - Homepage"
-description: AI, RL, ..
----
+# sbeignez
 
-# Home page
-
-
-
+Notes about Ai, RL, ..
 
 <!--
 {% for page in site.html_pages %}
