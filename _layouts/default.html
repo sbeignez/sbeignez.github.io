@@ -24,6 +24,15 @@
 
 
   <!-- HEADER -->
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">{{ page.description | default: site.description | default: site.github.project_tagline}}</p>
+    </div>
+  </div>
+
+
   <header class="page-header" role="banner">
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
@@ -49,11 +58,8 @@
   
               <div class="collapse show" id="getting-started-collapse">
                 <ul class="list-unstyled fw-normal pb-1 small">
-                  <li><a href="/xx/yy/"
-                      class="d-inline-flex align-items-center rounded active" aria-current="page">Submenu_1</a></li>
-                  <li><a href="/xx/yy/"
-                      class="d-inline-flex align-items-center rounded">Submenu_2</a></li>
-  
+                  <li><a href="/xx/yy/" class="d-inline-flex align-items-center rounded active" aria-current="page">Submenu_1</a></li>
+                  <li><a href="/xx/yy/" class="d-inline-flex align-items-center rounded">Submenu_2</a></li>
                 </ul>
               </div>
             </li>
