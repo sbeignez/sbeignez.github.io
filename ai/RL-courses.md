@@ -1,24 +1,25 @@
 ---
-title: "Reinforcement Learning: Links"
+title: "AI > ML > Reinforcement Learning: Links"
 tags: RL MDP
 ---
 
-# Reinforcement Learning (Learning ressources)
+# AI/RL - Books
+
+* Artificial Intelligence: A Modern Approach, 4th ed. - Chap 22 - [Site](http://aima.cs.berkeley.edu/)
+* Reinforcement Learning, An Introduction, 2nd ed. - Sutton Barto - [Site](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) - [Pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
+* Algorithms of Reinforcement Learning, Csaba Szepesvari, 2009 - [ Site](https://sites.ualberta.ca/~szepesva/rlbook.html) - [Pdf](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+
+
+
+# AI/RL - Video courses
 
 ## Stanford
 
 ### CS221 - Artificial Intelligence - [Homepage](https://stanford-cs221.github.io/)
 
-* CS221 - Fall 2013 - Instructor: Prof. Dan Klein
-    * [Youtube Playlist](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
-        * Lecture 4: [CSPs: Constraint Satisfaction Problems](https://www.youtube.com/watch?v=hJ9WOiueJes&t=4s&ab_channel=CS188Fall2013)
-        * Lecture 5: 
-        * [x] Lecture 6: [Adversarial Search](https://www.youtube.com/watch?v=-Il2oJoItaI&t=1305s&ab_channel=CS188Fall2013)
-        * [x] Lecture 7: [Uncertainty and Utilities](https://www.youtube.com/watch?v=M98BM_yJPNw&ab_channel=CS188Fall2013)
-
 * CS221 - Autumn 2019 - Percy Liang & Dorsa Sadigh
     *  [Youtube Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
-        - Lecture 1: Overview
+        - [ ] Lecture 1: [Overview](https://www.youtube.com/watch?v=J8Eh7RqggsU)
         - Lecture 2: Machine Learning 1 - Linear Classifiers, SGD
         - Lecture 3: Machine Learning 2 - Features, Neural Networks
         - Lecture 4: Machine Learning 3 - Generalization, K-means
@@ -39,7 +40,6 @@ tags: RL MDP
         * Lecture 19: Conclusion
 * CS221 - [Spring 2020-2021](https://stanford-cs221.github.io/spring2021/)
 
-Note: The 2013 videos are better than the 2019.
 
 ### Stanford | Online - [Page](https://online.stanford.edu/artificial-intelligence/free-content)
 
@@ -58,23 +58,47 @@ Note: The 2013 videos are better than the 2019.
 
 * Fall 2013 - Prof. Dan Klein (+)
     * [YouTube Videos](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
-        * [x] Lecture 4: [CSP] ()
-        * [ ] Lecture 5 [CSPs II] ()
-        * Lecture 8: [Markov Decision Processes](https://www.youtube.com/watch?v=ip4iSMRW5X4)
-        * Lecture 9: [Markov Decision Processes II](https://www.youtube.com/watch?v=1S-dw6Vt1l4)
-        * Lecture 10: [Reinforcement Learning](https://www.youtube.com/watch?v=w33Lplx49_A)
-        * Lecture 11: [Reinforcement Learning II](https://www.youtube.com/watch?v=w33Lplx49_A)
+        * [ ] Lecture 1: Introduction
+        * [ ] Lecture 2: Uninformed Search
+        * [ ] Lecture 3: Informed Search
+        * [x] Lecture 4: [CSPs: Constraint Satisfaction Problems](https://www.youtube.com/watch?v=hJ9WOiueJes&t=4s&ab_channel=CS188Fall2013)
+        * [x] Lecture 5: [CSPs II](https://www.youtube.com/watch?v=2TDQ_mesnOQ&t=536s)
+        * [x] Lecture 6: [Adversarial Search](https://www.youtube.com/watch?v=-Il2oJoItaI&t=1305s&ab_channel=CS188Fall2013)
+        * [x] Lecture 7: [Uncertainty and Utilities](https://www.youtube.com/watch?v=M98BM_yJPNw&ab_channel=CS188Fall2013)
+        * [ ] Lecture 8: [Markov Decision Processes](https://www.youtube.com/watch?v=ip4iSMRW5X4)
+        * [ ] Lecture 9: [Markov Decision Processes II](https://www.youtube.com/watch?v=1S-dw6Vt1l4)
+        * [ ] Lecture 10: [Reinforcement Learning](https://www.youtube.com/watch?v=w33Lplx49_A)
+        * [ ] Lecture 11: [Reinforcement Learning II](https://www.youtube.com/watch?v=w33Lplx49_A)
+        * [ ] Lecture 12: Probability
+        * [ ] Lecture 13: Bayes Nets
+        * [ ] Lecture 14: Bayes' Nets - Independence
+        * [ ] Lecture 15: Bayes' Nets III: Variable Elimination
+        * [ ] Lecture 16: Bayes Nets IV: Sampling
+        * [ ] Lecture 17: Decision Diagrams and Value of Perfect Information
+        * [ ] Lecture 18: HMMs Filtering
+        * [ ] Lecture 19: Speech
+        * [ ] Lecture 20: Machine Learning - Naive Bayes'
+        * [ ] Lecture 21: Machine Learning - Perceptrons
+        * [ ] Lecture 22 kernels and clustering
+        * [ ] Lecture 23 Decision trees and neural nets
+        * [ ] Lecture 25 Computer Vision and Robotics
+
 
 * [CS188.1x on edX](https://courses.edx.org/courses/BerkeleyX/CS188.1x-4/1T2015/course/) - 2015
 
-* Spring 2015 - Pieter Abbeel & Spring 2016 - Anca Dragan & Pieter Abbeel
+* Spring 2015 - Pieter Abbeel
     * [YouTube Videos](https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg/videos)
         * Lecture 18: [Hidden Markov Models](https://www.youtube.com/watch?v=D_RIe5bd3hk&ab_channel=BerkeleyAI)
 
+* Spring 2016 - Anca Dragan & Pieter Abbeel
+    * ..
+        * [ ] [CSPs II](https://www.youtube.com/watch?v=BdLiUY9rXIU)
+        * 
+
 ### Pieter Abbeel
-* Intro serie about Deep Reinforcement Learning
-    * [L1 MDPs, Exact Solution Methods, Max-ent RL (Foundations of Deep RL Series](https://www.youtube.com/watch?v=2GwBez0D20A&t=608s&ab_channel=PieterAbbeel)
-    * [L2] ()
+* Intro serie about Deep Reinforcement Learning, 2021
+    * [ ] [L1 MDPs, Exact Solution Methods, Max-ent RL (Foundations of Deep RL Series](https://www.youtube.com/watch?v=2GwBez0D20A&t=608s&ab_channel=PieterAbbeel)
+    * [ ] [L2 Deep Q-Learning (Foundations of Deep RL Series)](https://www.youtube.com/watch?v=Psrhxy88zww)
     * [L3] ()
     * [L4] ()
     * [L5] ()
@@ -165,3 +189,7 @@ Articles:
 ---
 To watch:
 * [Virtual HLF 2020 – Talk: David Silver](https://www.youtube.com/watch?v=u5hBHkbihxA)
+
+---
+Syllabus
+* https://www.andrew.cmu.edu/course/10-703/
