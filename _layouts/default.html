@@ -25,19 +25,19 @@
 
   <!-- HEADER -->
   <header class="page-header" role="banner">
-    <div class="bg-dark px-4 py-5 my-5 text-center">
+    <div class="bg-dark px-4 py-5 mb-5 text-center">
       <h1 class="display-5 fw-bold text-white">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">{{ page.description | default: site.description | default: site.github.project_tagline}}</p>
+        <p class="lead mb-4 text-black-50">{{ page.description | default: site.description | default: site.github.project_tagline}}</p>
       </div>
     </div>
   </header>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
 
       <!-- COL: SIDE MENU -->
-      <div class="col-3">
+      <div class="col-2">
         <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
           <ul class="list-unstyled mb-0 py-3 pt-md-1">
   
@@ -60,7 +60,7 @@
       </div>
 
       <!-- COL: MAIN -->
-      <div class="col-6">
+      <div class="col-8">
         <main id="content" class="main-content" role="main">
 
           {{ content }}
@@ -71,7 +71,7 @@
 
 
       <!-- COL: SIDE RIGHT -->
-      <div class="col-3">
+      <div class="col-2">
 
         <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
           <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
