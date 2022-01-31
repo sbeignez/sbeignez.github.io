@@ -16,7 +16,8 @@ Categories:
 
 Algo:
 
-* AC3
+* AC-3
+* PC-2
 
 Backtracking search
 ## Speed-ups
@@ -24,6 +25,7 @@ Backtracking search
 ## Speed-up 1. Ordering
 
 ## Speed-up 2. Filtering
+Forward Checking
 
 ### Filtering 1: Arc consistency
 Consistency: do not violate a constraints

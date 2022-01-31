@@ -1,4 +1,4 @@
-# sbeignez
+# AI dots
 
 Notes about Ai, RL, ..
 

@@ -84,17 +84,15 @@ tags: RL MDP
         * [ ] Lecture 23 Decision trees and neural nets
         * [ ] Lecture 25 Computer Vision and Robotics
 
-
-* [CS188.1x on edX](https://courses.edx.org/courses/BerkeleyX/CS188.1x-4/1T2015/course/) - 2015
-
 * Spring 2015 - Pieter Abbeel
     * [YouTube Videos](https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg/videos)
         * Lecture 18: [Hidden Markov Models](https://www.youtube.com/watch?v=D_RIe5bd3hk&ab_channel=BerkeleyAI)
 
 * Spring 2016 - Anca Dragan & Pieter Abbeel
-    * ..
+    * Videos
         * [ ] [CSPs II](https://www.youtube.com/watch?v=BdLiUY9rXIU)
-        * 
+
+* [CS188.1x on edX](https://courses.edx.org/courses/BerkeleyX/CS188.1x-4/1T2015/course/) - 2015
 
 ### Pieter Abbeel
 * Intro serie about Deep Reinforcement Learning, 2021
@@ -184,7 +182,10 @@ tags: RL MDP
 
 
 ---
-Articles:
+# Articles
+* OpenAI
+    * https://spinningup.openai.com/en/latest/
+    * https://spinningup.openai.com/en/latest/spinningup/spinningup.html
 * [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
 
 ---

@@ -1,14 +1,35 @@
-# AI
+---
+title: AI
+---
 
-## Artificial Intelligence
+# Artificial Intelligence
 
 Notes and ressources
 
-* GOFAI - OR
-    * Optimisation: [Search algorithms](/ai/algo)
-    * [Graph](/ai/graph), [Games Theory](/ai/game-theory)
-    * Evolutionary Algorithms
+##  Artificial Intelligence
+
+* Problem-Solving
+    * [Problem-solving by Search](/ai/algo)
+    * [Adversarial search] and [Games Theory](/ai/game-theory)
+    * [Contraints Satisfaction Problems](/ai/csp)
+        * Linear Programming
+    * Evolutionary methods  
+        *Genetics Algorithms, Genetic Programming, NEAT*
 * Machine Learning
-    * [Un]supervised Learning
-    * NN & Deep Learning
+    * Unsupervised Learning
+    * Supervised Learning
+    * Deep Learning
     * [Reinforcement Learning](/ai/RL)
+
+
+## Reinforcement Learning
+
+* Tabular Solutions Methods
+    * Finite Markov Decision Process (MDP)
+    * Dynamic Programming
+    * Monte Carlo Methods
+    * Temporal-Difference Learning  
+* Approximate Solutions Methods
+    * On-policy
+    * Off-policy
+
