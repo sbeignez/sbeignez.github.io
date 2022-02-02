@@ -168,7 +168,7 @@ tags: RL MDP
 * 2018 - Lex Fridman
     * Lecture 3: [Deep Reinforcement Learning](https://www.youtube.com/watch?v=MQ6pP65o7OM)
 
-### MIT 6.034
+### MIT 6.034: Artificial Intelligence
 * [Fall 2010](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - [Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
     * [6. Search: Games, Minimax, and Alpha-Beta](https://www.youtube.com/watch?v=STjW3eH0Cik)
 
