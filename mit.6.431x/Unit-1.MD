@@ -14,7 +14,8 @@
 
 > Experiment, Probabilistic experiment
 
-> an **outcome** is a possible result of an experiment 
+> an **outcome** is a possible result of an experiment  
+> an "outcome" is an element of the set "sample space"
 
 Experiment with stages
 sequenctial description: Tree
@@ -55,6 +56,15 @@ $ A^c $ is the **complement** of event A, such as $ A \cup A^c = \Omega $, and $
 
 > $ P(A \cup B \cup C) = P(A) + P(B) + P(C)$, if the 3 set are disjoint
 
+> $ \text{If } A_1, ..., A_k \text{ are disjoint, then } P(A_1 \cup .. \cup A_k) = \sum_{i=1}^k P(A_i)$
+
+## 1.1.11 More Properties
+
+> $ \text{If } A \subset B \text{, then } P(A) \le P(B)$
+
+> The union bound: $ P(A \cup B) \le P(A) + P(B)$
+
+> $ P(A \cup B \cup C) = P(A) + P(B \cap A^c) + P( C \cap B^c \cap A^c)$
 
 ---
 Probability vs Likelihood
