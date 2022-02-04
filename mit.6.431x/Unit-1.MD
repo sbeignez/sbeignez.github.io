@@ -66,5 +66,53 @@ $ A^c $ is the **complement** of event A, such as $ A \cup A^c = \Omega $, and $
 
 > $ P(A \cup B \cup C) = P(A) + P(B \cap A^c) + P( C \cap B^c \cap A^c)$
 
----
-Probability vs Likelihood
+## 1.1.13 Finite ex.
+
+Define/specify a probability law, probability assignment.
+
+> Discrete uniform law
+
+* $\Omega$, with n **equally likely** elements
+* A, k elements
+* all elements has a probability of $1/n$
+
+> $ P(A) = k/n $ 
+
+#### Exercices:  
+The event of interest is { , , }
+
+## 1.1.15 Continuous ex.
+
+> Uniform probability law
+
+* Probability = Area
+
+Probability calcualtion steps:
+1. Specify the sample space
+2. Specify a probability law
+3. Identify an event of interest
+4. Calculate
+
+## 1.1.17 Countable additivity
+
+Discrete and infinite sample space
+
+Geometric serie:
+$$ \sum_{i=0}^{\infin} a*n^i = {a \over (1 - n)}$$
+
+> Countable Additivity Axiom  
+> $ If A_1, A_2, .. $ is an infinite **sequence** of disjoint events,  
+> $ then P(A_1 \cup) = P(A_1) + P(A_2) + P(A_3) + ... $
+
+sequence: countable 
+
+## 1.1.21
+
+What is Probability?
+* Frequency
+* Description of beliefs
+* Betting preference
+
+Framework for analysing phenomena with uncertain outcomes
+
+Real world --DATA--> Inference/Statistics --MODELS-> Probability theory --PREDICTIONS/DECISIONS-> Real world

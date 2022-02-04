@@ -1,9 +1,4 @@
-## id
-
-* checker
-* PAC-MAN (berkeley 2015: Project 2)
-* tictactoe
-* snake and scales
+# RL Messy notes
 
 
 L1:  
