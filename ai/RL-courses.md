@@ -6,9 +6,13 @@ tags: RL MDP
 
 # Books
 
-* Artificial Intelligence: A Modern Approach, 4th ed. - Chap 22 - [Site](http://aima.cs.berkeley.edu/)
-* Reinforcement Learning, An Introduction, 2nd ed. - Sutton Barto - [Site](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) - [Pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
-* Algorithms of Reinforcement Learning, Csaba Szepesvari, 2009 - [ Site](https://sites.ualberta.ca/~szepesva/rlbook.html) - [Pdf](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+* **AI**
+    * Artificial Intelligence: A Modern Approach, 4th ed. - Chap 22 - [Site](http://aima.cs.berkeley.edu/global-index.html) [+++]
+    * **OR**
+    * **Machine Learning**
+        * **Reinforcement Learning**
+            * Reinforcement Learning, An Introduction, 2nd ed. - Sutton Barto - [Site](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) - [Pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
+            * Algorithms of Reinforcement Learning, Csaba Szepesvari, 2009 - [ Site](https://sites.ualberta.ca/~szepesva/rlbook.html) - [Pdf](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
 
 
@@ -57,7 +61,7 @@ tags: RL MDP
         * Lecture 10: [Reinforcement Learning]
         * Lecture 11: [Reinforcement Learning II]
 
-* Fall 2013 - Prof. Dan Klein (+)
+* Fall 2013 - Prof. Dan Klein [+++]
     * [YouTube Videos](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
         * [ ] Lecture 1: Introduction
         * [ ] Lecture 2: Uninformed Search

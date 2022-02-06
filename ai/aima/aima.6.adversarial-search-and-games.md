@@ -1,10 +1,16 @@
-# AIMA.3: Adversarial Search and Game
+# AIMA.6: Adversarial Search and Game
 
 
 
 ## Minimax algorithm
 
-Expetimax
+Minimax optimizations
+* Alpha-Beta pruning
+* Move ordering
+* Transposition tables
+
+
+Pseudo-code
 
 ``` 
 def MINIMAX(game, state) -> action:
@@ -27,11 +33,4 @@ def MIN(game, state) -> utility, action:
 
 ```
 
-## Minimax optimizations
-
-### Alpha-Beta pruning
-
-### Move ordering
-
-### Transposition tables
-
+Expetimax
