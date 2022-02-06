@@ -8,16 +8,16 @@ Table of content:
     * `01` Introduction
     * `02` Intelligent Agents  
 - **II - Problem-solving**  
-    * `03` [Solving Problems by Searching](ai/aima/aima.3.solving-problems-by-searching.md)
+    * `03` [Solving Problems by Searching](aima.3.solving-problems-by-searching.md)
     * `04` Search in Complex Environments
     * `05` Constraint Satisfaction Problems
-    * `06` [Adversarial Search and Games](ai/aima/aima.6.adversarial-search-and-games.md)
+    * `06` [Adversarial Search and Games](/ai/aima/aima.6.adversarial-search-and-games.md)
 - **III - Knowledge, reasoning, and planning**   
     * `07` Logical Agents
     * `08` First-Order Logic
     * `09` Inference in First-Order Logic
     * `10` Knowledge Representation
-    * `11` [Automated Planning](ai/aima/aima.11.automated-planning.md)
+    * `11` [Automated Planning](aima.11.automated-planning.md)
 - **IV - Uncertain knowledge and reasoning** 
     * `12` Quantifying Uncertainty
     * `13` Probabilistic Reasoning
