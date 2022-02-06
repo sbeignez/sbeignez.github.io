@@ -1,4 +1,4 @@
-# 03: Problem Solving by Searching [AIMA]
+# 3. Problem Solving by Searching [AIMA]
 
 Agent
     * Simple Reflex Agent

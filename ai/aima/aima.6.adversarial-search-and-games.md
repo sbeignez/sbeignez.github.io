@@ -1,4 +1,4 @@
-# 06: Adversarial Search and Games [AIMA]
+# `06`. Adversarial Search and Games [AIMA]
 
 - `06` Adversarial Search and Games  
     * `06.1` Game Theory
