@@ -1,13 +1,30 @@
-# AIMA.6: Adversarial Search and Game
+# 06: Adversarial Search and Games [AIMA]
+
+- `06` Automated Planning  
+    * `06.1` Game Theory
+    * `06.2` Optimal Decision in Games
+    * `06.3` Heuristic Alpha-Beta Tree Search
+    * `06.4` Monte Carlo Tree Search
+    * `06.5` Stochastic Games
+    * `06.6` Partially Observables Games
+    * `06.7` Limitation of Game Search Algorithms
+
+---
+
+## `06.1` Game Theory
+
+Approches for Multi-agents environments:
+* agents as part of the environment. (RL?)
+* agents as an aggregate: **Economy**
+* agents as adversaries with strategy: **Adversarial search**
 
 
 
-## Minimax algorithm
+## `06.2` Optimal Decision in Games
 
-Minimax optimizations
-* Alpha-Beta pruning
-* Move ordering
-* Transposition tables
+
+## `06.2.1` The Minimax search algorithm
+
 
 
 Pseudo-code
@@ -32,5 +49,10 @@ def MIN(game, state) -> utility, action:
 
 
 ```
+
+Minimax optimizations
+* Alpha-Beta pruning
+* Move ordering
+* Transposition tables
 
 ## Expectimax Algorithm
