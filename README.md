@@ -2,6 +2,12 @@
 
 Notes about Ai, RL, ..
 
+
+
+[List of courses about AI](ai/ai-courses)
+[Notes: Artificial Intelligence: A Modern Approach](ai/aima/aima.toc)
+
+
 <!--
 {% for page in site.html_pages %}
 * [{{ page.title }}]( {{ page.url }} )
