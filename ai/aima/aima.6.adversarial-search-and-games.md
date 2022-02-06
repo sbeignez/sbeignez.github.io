@@ -33,4 +33,4 @@ def MIN(game, state) -> utility, action:
 
 ```
 
-Expetimax
+## Expectimax Algorithm
