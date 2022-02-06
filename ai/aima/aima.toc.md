@@ -10,7 +10,7 @@ Table of content:
 - **II - Problem-solving**  
     * `03` [Solving Problems by Searching](aima.3.solving-problems-by-searching.md)
     * `04` Search in Complex Environments
-    * `05` Constraint Satisfaction Problems
+    * `05` [Constraint Satisfaction Problems](aima.5.csp.md)
     * `06` [Adversarial Search and Games](aima.6.adversarial-search-and-games.md)
 - **III - Knowledge, reasoning, and planning**   
     * `07` Logical Agents

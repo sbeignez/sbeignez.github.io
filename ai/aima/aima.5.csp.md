@@ -1,34 +1,57 @@
-# CSP Contrains Satisfaction Problems
+# 5. CSP Contraints Satisfaction Problems [AIMA]
 
-AIMA.Chapter 5.
-En:CSP = Fr:Programmation par contraintes
+- `05` Contraints Satisfaction Problems 
+    * `05.1` Defining Contrains Satisfaction Problems
+    * `05.2` Constraint Propagation: Inference
+    * `05.3` Backtracking Search for CSP
+    * `05.4` Local Search for CSP
+    * `05.5` The Structure of problems
 
-CSP problem exmaples
+---
+
+Fr:Programmation par contraintes
+
+CSP problem examples
 * cryptarithmetic
 * N-queens
 * map coloring
+* Mastermind (dynamic)
 
 
 Categories:
 * Constraint Satisfaction Problems (CSP)
     * Constrained Optimization Problems (COP), with preference constraints
         * Linear Programs
+            * MILP Mixed-Integer Linear Programs
 
 
 Algo:
 
-* AC-3
+
 * PC-2
 
-Backtracking search
-## Speed-ups
+## `05.2` Constraint Propagation: Inference
 
-## Speed-up 1. Ordering
+### `05.2.1` Node Consistency
 
-## Speed-up 2. Filtering
+
+### `05.2.2` Arc Consistency
+
+> Algorithm: AC-3 "Arc Consistency 3"
+
+### `05.2.2` Path Consistency
+
+> Algorithm: PC-2 "Path Consitency 2"
+
+## `05.3` Backtracking Search for CSP
+Speed-ups
+Speed-up 1. Ordering
+Speed-up 2. Filtering
 Forward Checking
+  
 
-### Filtering 1: Arc consistency
+
+Filtering 1: Arc consistency
 Consistency: do not violate a constraints
 1-consistency (node)
 2-consistency (arc): Pair of nodes
@@ -37,7 +60,7 @@ K-consistency: (1,..,K-1) -> K
 Strong n-consistency
 
 
-## Speed-up 3. Structure
+Speed-up 3. Structure
 
 Contraints graph
 - indenpendant sub-problems

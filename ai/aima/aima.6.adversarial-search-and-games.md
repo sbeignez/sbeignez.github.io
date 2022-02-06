@@ -1,6 +1,6 @@
 # 06: Adversarial Search and Games [AIMA]
 
-- `06` Automated Planning  
+- `06` Adversarial Search and Games  
     * `06.1` Game Theory
     * `06.2` Optimal Decision in Games
     * `06.3` Heuristic Alpha-Beta Tree Search

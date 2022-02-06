@@ -1,4 +1,4 @@
-# 11: Automated Planning [AIMA]
+# 11. Automated Planning [AIMA]
 
 - `11` Automated Planning  
     * `11.1` Definition of Classical Planning

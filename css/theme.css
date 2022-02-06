@@ -17,9 +17,10 @@ h3 {
 blockquote {
     border-left: 2px rgb(150, 150, 160) solid;
     padding-left: 1rem;
+    margin-right: 1rem;
     margin-left: 0;
-    margin-right: 0;
-    color:rgb(50, 50, 60)
+    background-color: lightgray;
+    color:rgb(43, 43, 77);
 }
 
 ul {
