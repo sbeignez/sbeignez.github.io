@@ -6,6 +6,7 @@ En:CSP = Fr:Programmation par contraintes
 CSP problem exmaples
 * cryptarithmetic
 * N-queens
+* map coloring
 
 
 Categories:

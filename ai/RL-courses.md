@@ -143,7 +143,7 @@ tags: RL MDP
     - Lecture 4: Logistic regression, a.k.a. linear logistic classification (2020 / 09 / 22) 
     - Lecture 5: Regression (2020 / 09 / 29) 
     - Lecture 6: Neural networks (2020 / 10 / 06) 
-    - Lecture 7: There was a holiday this week, and the lecture numbering matches the week of the course. So there is no Lecture 7.
+    - Lecture 7: n/a
     - Lecture 8: Convolutional neural networks (2020 / 10 / 20) 
     - Lecture 9: [State machines and Markov decision processes](https://www.youtube.com/watch?v=O5hkIfUR_uA&ab_channel=TamaraBroderick) (2020 / 10 / 27) #RL 
     - Lecture 10: [Reinforcement learning](https://www.youtube.com/watch?v=Ir93m9OmOHo) (2020 / 11 / 03) 
