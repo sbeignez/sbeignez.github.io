@@ -1,16 +1,61 @@
-# Graph
+# Graph, Data Structures
+
+## 1. Graph
+
+### 1.1 Definition of a Graph
+
+> A __Graph__: a structure composed of Vertices and Edges. $G = (V, E)$.
+> * V, set of __Vertices__ (or Nodes)
+> * E, set of __Edges__ (link): paired vertices
+
+> __Directed__ graph:
+
+> __Weighted__ graph:
+
+> __Complete__ graph: contains all possible edges
+
+> __Connected__ graph: if every pair of vertices in the graph is connected. This means that there is a path between every pair of vertices.
+
+
+ 
+### 1.2 Storing a Graph
+
+Data strutures to store a graph, two common methods:
+* adjacency matrix
+* adjacency list
 
 
 
-> A tree is a connected, undirected graph with no cycles.
+## 2. Tree
 
-> A graph is said to be **connected** if every pair of vertices in the graph is connected. This means that there is a path between every pair of vertices.
+> A tree: is a connected, undirected graph with no cycles.
 
-### Storing a Graph
+> A __rooted__ tree: is a tree with one vertex designated as the __root__.
 
-Two common methods:
-* an adjacency matrix
-* an adjacency list
+> Root node
+
+* parent of node
+* sibling of node
+* children of node
+* edge
+* external nodes, or leaves (i.e., nodes with no children).
+* internal nodes.
+* depth (level) of node (distance to root)
+* tree height of tree
+* degree of node (number of children)
+
+Binary trees
+
+Algo to traverse trees
+- postorder traversal
+- inorder traversal  
+
+Algo to search trees
+
+
+## 3. List
+
+
 
 
 

@@ -10,6 +10,8 @@ For graphing
 * https://www.geogebra.org/graphing?lang=en
 * https://www.desmos.com/calculator
 
+Latex
+https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject
 
 
 ### Questions

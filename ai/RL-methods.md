@@ -32,7 +32,7 @@ With definitive end
 
 Update:
 
-$$ V(s_k) \larr V(s_k) + {1 \over n} ( R_{\sum} - V(s_k)), for all k \in [1,...,n]$$
+$$ V(s_k) \larr V(s_k) + {1 \over n} ( R_{\sum} - V(s_k)) \text{, for all }k \in [1,...,n]$$
 
 ### Temporal Difference Learning: TD(N)
 
