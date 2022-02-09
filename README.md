@@ -1,38 +1,12 @@
-# AI dots
+# A.I. dots
 
-Notes about Ai, RL, ..
-
-
-
-[List of courses about AI](ai/ai-courses)
-[Notes: Artificial Intelligence: A Modern Approach](ai/aima/aima.toc)
+Notes about the __A.I.__ field (especially _Search_, _Games_, and _Reinforcement Learning_).
 
 
-<!--
-{% for page in site.html_pages %}
-* [{{ page.title }}]( {{ page.url }} )
-{% endfor %}
+To start:
+* List of [learning ressources about A.I.](ai/ai-courses)
+* Notes about the book: [_"Artificial Intelligence: A Modern Approach"_](ai/aima/aima.toc), chapter by chapter.
 
- <ul>
-  {% for page in site.pages %}
-  <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-  </li>
-  {% endfor %}
-</ul> -->
-
-<!-- <ul>
-{% for post in site.posts %}
-<li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul> 
-
-{% for post in site.posts %}
-* [{{ post.title }}]( {{ post.url }} )
-{% endfor %}
--->
 
 
 

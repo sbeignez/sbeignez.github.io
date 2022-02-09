@@ -1,5 +1,5 @@
 ---
-title: "AI & Reinforcement Learning Ressources"
+title: "AI & Reinforcement Learning Resources"
 description: Books, Videos, Pages..
 tags: RL MDP
 ---
@@ -63,15 +63,15 @@ tags: RL MDP
 
 * Fall 2013 - Prof. Dan Klein [+++]
     * [YouTube Videos](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/videos)
-        * [ ] Lecture 1: Introduction
-        * [ ] Lecture 2: Uninformed Search
-        * [ ] Lecture 3: Informed Search
-        * [x] Lecture 4: [CSPs: Constraint Satisfaction Problems](https://www.youtube.com/watch?v=hJ9WOiueJes&t=4s&ab_channel=CS188Fall2013)
-        * [x] Lecture 5: [CSPs II](https://www.youtube.com/watch?v=2TDQ_mesnOQ&t=536s)
-        * [x] Lecture 6: [Adversarial Search](https://www.youtube.com/watch?v=-Il2oJoItaI&t=1305s&ab_channel=CS188Fall2013)
-        * [x] Lecture 7: [Uncertainty and Utilities](https://www.youtube.com/watch?v=M98BM_yJPNw&ab_channel=CS188Fall2013)
-        * [ ] Lecture 8: [Markov Decision Processes](https://www.youtube.com/watch?v=ip4iSMRW5X4)
-        * [ ] Lecture 9: [Markov Decision Processes II](https://www.youtube.com/watch?v=1S-dw6Vt1l4)
+        * [ ] Lecture 01: Introduction
+        * [ ] Lecture 02: Uninformed Search
+        * [ ] Lecture 03: Informed Search
+        * [x] Lecture 04: [CSPs: Constraint Satisfaction Problems](https://www.youtube.com/watch?v=hJ9WOiueJes&t=4s&ab_channel=CS188Fall2013)
+        * [x] Lecture 05: [CSPs II](https://www.youtube.com/watch?v=2TDQ_mesnOQ&t=536s)
+        * [x] Lecture 06: [Adversarial Search](https://www.youtube.com/watch?v=-Il2oJoItaI&t=1305s&ab_channel=CS188Fall2013)
+        * [x] Lecture 07: [Uncertainty and Utilities](https://www.youtube.com/watch?v=M98BM_yJPNw&ab_channel=CS188Fall2013)
+        * [ ] Lecture 08: [Markov Decision Processes](https://www.youtube.com/watch?v=ip4iSMRW5X4)
+        * [ ] Lecture 09: [Markov Decision Processes II](https://www.youtube.com/watch?v=1S-dw6Vt1l4)
         * [ ] Lecture 10: [Reinforcement Learning](https://www.youtube.com/watch?v=w33Lplx49_A)
         * [ ] Lecture 11: [Reinforcement Learning II](https://www.youtube.com/watch?v=w33Lplx49_A)
         * [ ] Lecture 12: Probability
@@ -84,9 +84,9 @@ tags: RL MDP
         * [ ] Lecture 19: Speech
         * [ ] Lecture 20: Machine Learning - Naive Bayes'
         * [ ] Lecture 21: Machine Learning - Perceptrons
-        * [ ] Lecture 22 kernels and clustering
-        * [ ] Lecture 23 Decision trees and neural nets
-        * [ ] Lecture 25 Computer Vision and Robotics
+        * [ ] Lecture 22: Kernels and clustering
+        * [ ] Lecture 23: Decision trees and neural nets
+        * [ ] Lecture 25: Computer Vision and Robotics
 
 * Spring 2015 - Pieter Abbeel
     * [YouTube Videos](https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg/videos)

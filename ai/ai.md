@@ -1,5 +1,5 @@
 ---
-title: AI
+title: A.I.
 ---
 
 # Artificial Intelligence

@@ -116,3 +116,13 @@ What is Probability?
 Framework for analysing phenomena with uncertain outcomes
 
 Real world --DATA--> Inference/Statistics --MODELS-> Probability theory --PREDICTIONS/DECISIONS-> Real world
+
+
+
+# Solved Problems
+
+## 1.
+
+$$ P( (A \cap B') \cup (A' \cap B)) = P(A) + P(A) - 2 * P(A \cap B) $$
+
+## 2. 

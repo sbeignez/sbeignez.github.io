@@ -4,6 +4,14 @@ Latex: https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject
 
 Coupon ZGY11119949 applied for 15% off
 
+### Tools
+
+For graphing
+* https://www.geogebra.org/graphing?lang=en
+* https://www.desmos.com/calculator
+
+
+
 ### Questions
 
 Probability vs Likelihood ?
