@@ -1,3 +1,8 @@
+---
+title: 06. Adversarial Search and Games
+tags: AIMA
+---
+
 # `06`. Adversarial Search and Games [AIMA]
 
 - `06` Adversarial Search and Games  
