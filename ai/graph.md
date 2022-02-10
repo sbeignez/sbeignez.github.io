@@ -24,9 +24,13 @@ Data strutures to store a graph, two common methods:
 * adjacency matrix
 * adjacency list
 
+### 1.3 Graph Traversal algorithm
+
 
 
 ## 2. Tree
+
+### 2.1. Definition of tree
 
 > A tree: is a connected, undirected graph with no cycles.
 
@@ -46,7 +50,8 @@ Data strutures to store a graph, two common methods:
 
 Binary trees
 
-Algo to traverse trees
+### 2.2. Tree Traversal Algo
+
 - postorder traversal
 - inorder traversal  
 

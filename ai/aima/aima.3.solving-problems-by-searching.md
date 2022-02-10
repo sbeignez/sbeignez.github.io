@@ -1,5 +1,5 @@
 ---
-title: 03. Problem Solving by Searching
+title: Problem Solving by Searching
 tags: AIMA
 ---
 
@@ -10,7 +10,7 @@ tags: AIMA
     * `03.2` Example problems
     * `03.3` Search Algorithms
     * `03.4` Uniformed Search Strategies
-    * 
+    * `03.5` Informed Search Strategies (Heuristic)
     * `03.6` Heuristic functions
 
 ---
@@ -92,9 +92,69 @@ A problem is defined as:
 
 ### `03.4.1` Bredth-first search
 
-def BFS(problem) -> solution:
-    node = Node(problem.initial)
-    if problem.is_goal(node.state) then return node
+```
+ 1  procedure BFS(G, root) is
+ 2      let Q be a queue
+ 3      label root as explored
+ 4      Q.enqueue(root)
+ 5      while Q is not empty do
+ 6          v := Q.dequeue()
+ 7          if v is the goal then
+ 8              return v
+ 9          for all edges from v to w in G.adjacentEdges(v) do
+10              if w is not labeled as explored then
+11                  label w as explored
+12                  Q.enqueue(w)
+```
+
+```
+# GRAPH
+def Breadth_first_graph_search(problem) -> solution:
+    node = Node(state=problem.initial)
+    if problem.is_goal(node.state):
+        return node
+    frontier = deque(node) # NODES
+    reached = {node.state} # STATES, problem.initial, set
+    while frontier:
+        node = frontier.popleft()
+        for child in problem.expand(node.state): # ??
+            state = child.state
+            if problem.is_goal(state):
+                return child
+            if state not in reached:
+                frontier.append(child)
+                reached.add(state)
+```
+
+```
+# TREE SEARCH
+# from collections import deque
+
+def Breadth_first_tree_search(problem) -> solution:
+
+    frontier = deque(Node(state=problem.initial, parent=None)) # NODES
+
+    while frontier:
+        node = frontier.popleft()
+        if problem.is_goal(node.state):
+                return node  # Goal
+        frontier.append(self.expand(problem, node))
+
+    return None  # Fail
+
+    def expand(problem, node):
+
+        nodes = []
+        actions = problem.actions(node.state)
+        for action in actions:
+            state = problem.result(state, action)
+            node_ = Node(state=state, parent=node)
+            nodes.append(node_)
+
+        return nodes
+
+```
+
 
 ## `03.5` Informed Search Strategies (Heuristic)
 

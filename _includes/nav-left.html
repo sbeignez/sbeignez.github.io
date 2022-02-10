@@ -1,10 +1,17 @@
 
-<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted"></div>
+    <!-- COL: LIST OF BADGES -->
+    <strong class="d-block h6 my-2 pb-2 border-bottom">Tags</strong>
+    {% for page in site.html_pages %} 
+        `{{ tag }}`
+    {% endfor %}
+
+    <!-- TOC -->
     <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
     <nav id="TableOfContents">
         {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=1 h_max=4 %}
     </nav>
-    </div>
+</div>
 
 <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
     <strong class="d-block h6 my-2 pb-2 border-bottom">Pages</strong>
