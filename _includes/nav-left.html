@@ -2,8 +2,9 @@
 <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted"></div>
     <!-- COL: LIST OF BADGES -->
     <strong class="d-block h6 my-2 pb-2 border-bottom">Tags</strong>
-    {% for page in site.html_pages %} 
+    {% for tag in page.tags %} 
         `{{ tag }}`
+        <div class="badge badge-primary mr-2 mb-2">{{ tag }}</div>
     {% endfor %}
 
     <!-- TOC -->

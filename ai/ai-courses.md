@@ -1,18 +1,21 @@
 ---
 title: "AI & Reinforcement Learning Resources"
-description: Books, Videos, Pages..
+description: Books, Videos, Articles; Free ressources to learn a.i. online
 tags: RL MDP
 ---
 
 # Books
 
 * **AI**
-    * Artificial Intelligence: A Modern Approach, 4th ed. - Chap 22 - [Site](http://aima.cs.berkeley.edu/global-index.html) [+++]
-    * **OR**
+    * Artificial Intelligence: A Modern Approach, 4th ed. (2022) - [Site](http://aima.cs.berkeley.edu/global-index.html) - Pdf [+++]
+    * Artificial Intelligence: Structures and Strategies for Complex Problem Solving, 6th Edition (2009) - [Site](https://www.pearson.com/uk/educators/higher-education-educators/program/Luger-Artificial-Intelligence-Structures-and-Strategies-for-Complex-Problem-Solving-6th-Edition/PGM922021.html?tab=overview)
+    * __OR__
+        * __PRoblem solving__
+            * Algorithms, Sedgewick, 4th ed. [Site](https://algs4.cs.princeton.edu/home/)
     * **Machine Learning**
         * **Reinforcement Learning**
             * Reinforcement Learning, An Introduction, 2nd ed. - Sutton Barto - [Site](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) - [Pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
-            * Algorithms of Reinforcement Learning, Csaba Szepesvari, 2009 - [ Site](https://sites.ualberta.ca/~szepesva/rlbook.html) - [Pdf](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+            * Algorithms of Reinforcement Learning, Csaba Szepesvari, 2009 - [Site](https://sites.ualberta.ca/~szepesva/rlbook.html) - [Pdf](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
 
 

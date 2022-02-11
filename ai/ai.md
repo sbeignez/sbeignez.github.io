@@ -4,7 +4,15 @@ title: A.I.
 
 # Artificial Intelligence
 
-Notes and ressources
+linguistics, bias, vision, planning, robotic process automation, natural language processing, decision science, etc
+machine learning
+neural network
+robotics
+expert systems
+fuzzy logic
+natural language processing
+
+
 
 ##  Artificial Intelligence
 

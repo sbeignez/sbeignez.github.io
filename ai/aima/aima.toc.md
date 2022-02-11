@@ -22,10 +22,10 @@ Table of content:
     * `12` Quantifying Uncertainty
     * `13` Probabilistic Reasoning
     * `14` Probabilistic Reasoning over Time
-    * `15` Probabilistic Programming
-    * `16` Making Simple Decisions
-    * `17` Making Complex Decisions  
-    * `18` Multiagent Decision Making  
+    * `15` Making Simple Decisions
+    * `16` [Making Complex Decisions](aima.16.making-complexe-decisions.md)  
+    * `17` Multiagent Decision Making  
+    * `18` Probabilistic Programming
 - **V - Machine Learning**  
     * `19` Learning from Examples  
     * `20` Learning Probabilistic Models  
