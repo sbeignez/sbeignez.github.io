@@ -1,6 +1,6 @@
-# Probability. Unit 1. Sample Space and Probability
+# Probability. Chapter 01. Sample Space and Probability
 
-## 1.1.3 Sample space
+## Sample space [Unit 1.1.3]
 
 > Sample space, set of all possible outcomes
 
@@ -21,7 +21,7 @@ Experiment with stages
 sequenctial description: Tree
 
 
-## 1.1.7 Probability Axioms
+## Probability Axioms [1.1.7]
 
 P(A), read: Probability of set A
 
@@ -58,7 +58,7 @@ $ A^c $ is the **complement** of event A, such as $ A \cup A^c = \Omega $, and $
 
 > $ \text{If } A_1, ..., A_k \text{ are disjoint, then } P(A_1 \cup .. \cup A_k) = \sum_{i=1}^k P(A_i)$
 
-## 1.1.11 More Properties
+## More Properties [1.1.11]
 
 > $ \text{If } A \subset B \text{, then } P(A) \le P(B)$
 
@@ -66,7 +66,7 @@ $ A^c $ is the **complement** of event A, such as $ A \cup A^c = \Omega $, and $
 
 > $ P(A \cup B \cup C) = P(A) + P(B \cap A^c) + P( C \cap B^c \cap A^c)$
 
-## 1.1.13 Finite ex.
+## Finite ex. [1.1.13]
 
 Define/specify a probability law, probability assignment.
 
@@ -81,7 +81,7 @@ Define/specify a probability law, probability assignment.
 #### Exercices:  
 The event of interest is { , , }
 
-## 1.1.15 Continuous ex.
+## Continuous ex. [1.1.15]
 
 > Uniform probability law
 
@@ -93,7 +93,7 @@ Probability calcualtion steps:
 3. Identify an event of interest
 4. Calculate
 
-## 1.1.17 Countable additivity
+## Countable additivity [1.1.17]
 
 Discrete and infinite sample space
 
@@ -106,7 +106,7 @@ $$ \sum_{i=0}^{\infin} a*n^i = {a \over (1 - n)}$$
 
 sequence: countable 
 
-## 1.1.21
+## [1.1.21]
 
 What is Probability?
 * Frequency

@@ -5,13 +5,13 @@
 Table of content:  
 
 - **I - Artificial Intelligence** 
-    * `01` Introduction
+    * `01` [Introduction](aima.01.introduction.md)
     * `02` Intelligent Agents  
 - **II - Problem-solving**  
-    * `03` [Solving Problems by Searching](aima.3.solving-problems-by-searching.md)
+    * `03` [Solving Problems by Searching](aima.03.solving-problems-by-searching.md)
     * `04` Search in Complex Environments
-    * `05` [Constraint Satisfaction Problems](aima.5.csp.md)
-    * `06` [Adversarial Search and Games](aima.6.adversarial-search-and-games.md)
+    * `05` [Constraint Satisfaction Problems](aima.05.csp.md)
+    * `06` [Adversarial Search and Games](aima.06.adversarial-search-and-games.md)
 - **III - Knowledge, reasoning, and planning**   
     * `07` Logical Agents
     * `08` First-Order Logic

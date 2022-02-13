@@ -2,6 +2,35 @@
 title: A.I.
 ---
 
+# Definition
+
+> __Articifial Intelligence__: Study and construction of rational agents.
+
+> __Rational agent__: An agent that acts so as to acheive the best outcome, according an objective.  
+> (or under uncertainty, the best expected outcome). Effective behaviour. 
+
+
+> __Machine Learning__: Branch of A.I. and C.S. that create agents, that can act rationally in ciscumstances that are new. Adapt to new situations.
+
+> __Supervised Learning__: make prediction from data. (it's not actual plannig or acting toward an objective)
+
+* Can a machine learn from an algorithm? = Supervised learning  
+
+> __Reinforcement Learning__: Learn from experience of new situation? Exploration.
+
+> __Neural Network__: A NN is an approximation function of an target function f, which parameters, the weights and biases, are pre-calculated | instanciated using a large number of "labelled" data (observed inputs and output of the taget function), using the gradient descent algorithm.
+> The technic works even though the labelled data can potentially contains some noise.
+
+> __Operation Research__:
+
+> __Algorithm__:
+
+> __Control theory__:
+
+> __Game therory__:
+
+
+
 # Artificial Intelligence
 
 linguistics, bias, vision, planning, robotic process automation, natural language processing, decision science, etc
