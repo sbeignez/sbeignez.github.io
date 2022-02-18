@@ -60,15 +60,48 @@ $$ B    \xRightarrow[ inference ]{ P(B|A_i) }  A_i  $$
 
 ## `01.5.` Independence [Lecture 3]
 
-> __Independence of 2 events__: Event A and B are independent is: 
+> __Independence of 2 events__: Event A and B are independent if knowing 1 occured, it does not change the probability of the other:
+> $$ P(A | B) = P(A) or P(B | A) = P(B)$$
+> (when $P(B) \ne 0$ or P(A))  
+> or:  
+> $$ P(A \cap B) = P(A)P(B) $$
 
+* Disjoint events are NOT independants.  
+* Independence is about information.  
+* Events are independent when (for example) they are caused by 2 distinct and non-interacting physical processes.
+
+* Two disjoint events are never independant.
+* $A$ and $A^c$ are not independents (excepts if P(A) =0 or 1)
+* $A$ and $\bar{A}$ are independent only if $P(A) = 0$ or $1$.
+
+* __Independence of complements__: If A et B are independent, then A and B', A' and B, A' and B'.
+
+### `01.5.2` Conditional independence
 > __Conditional independence__:
+> $$ P(A \cap B | C) = P(A |C)*P(B|C) $$
+> Then A and B are conditionally independent on C  
+> (when $P(C) \ne 0$)
 
-> __Independence of a collection__
+* Independent does not imply conditional independence, and vice versa.
+
+### `01.5.3` Independence of a collection
+
+> __Independence of a collection__  
+> $A_a, A2, ..A_n$ are independent if:
+> $$ P(\bigcap_i A_i) = \prod_i P(A_i)$$
+> for every subsets S of {1,2,..., n}
 
 > __Pair-wise independence__:
 
-> __Reliability__:
+* Pair-wise independence does not imply independence!
+* $ P(A \cap B \cap C) = P(A)*P(B)*P(C)$ do not imply independence of the collection $A, B, C$.
+* $P(\bigcap_i A_i) = \prod_i P(A_i)$ do not imply independence of the collection $A_i$
 
-Unrelated source of randomness
+### `01.5.4` Application: __Reliability__ problems
+
+For calculating the reliability of a system of connected elements. Each elements has a probablity $p$ to be up and $1-p$ to fails. Each elements are independent.
+* elements in serie: $ p_1 * p_2 $
+* elements in parallele: $ 1 - (1-p_1)(1-p_2) $
+
+
 
