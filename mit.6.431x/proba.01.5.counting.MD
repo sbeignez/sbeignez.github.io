@@ -72,8 +72,6 @@ $ n_1 + n_2 + n_3 + ... + n_r = n $ (all n_i are non-negative)
 > $$ = {n! \over n_1! \cdot n_2! \cdot ... \cdot n_r! }$$
 
 
-
-
 ## `01.6.5` The binomial probability
 
 Proof:  
