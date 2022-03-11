@@ -71,7 +71,6 @@ $ n_1 + n_2 + n_3 + ... + n_r = n $ (all n_i are non-negative)
 > $$ = \binom{n}{n_1} \binom{n - n_1}{n_2} \binom{n - n_1 - n_2}{n_3} \cdot ... \cdot  \binom{n - n_1 - n_2 - ... - n_{r-1}}{n_r} $$
 > $$ = {n! \over n_1! \cdot n_2! \cdot ... \cdot n_r! }$$
 
-
 ## `01.6.5` The binomial probability
 
 Proof:  
